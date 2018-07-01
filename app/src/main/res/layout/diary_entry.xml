@@ -21,14 +21,4 @@
         android:onClick="deleteDiary"
         android:text="Delete"/>
 
-
-    <Button
-        android:id="@+id/diary_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/diary_delete"
-        android:onClick="viewDiary"
-        android:text="View" />
-
 </RelativeLayout>

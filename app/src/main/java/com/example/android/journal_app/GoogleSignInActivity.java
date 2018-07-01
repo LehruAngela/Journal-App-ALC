@@ -268,8 +268,8 @@ public class GoogleSignInActivity extends BaseActivity implements
             case R.id.diary_add:
                 final EditText diaryEditText = new EditText(this);
                 AlertDialog dialog = new AlertDialog.Builder(this)
-                        .setTitle("New Diary")
-                        .setMessage("Add a new diary:")
+                        .setTitle("My Diary")
+                        .setMessage("Add a new entry:")
                         .setView(diaryEditText)
                         .setPositiveButton("Add", new DialogInterface.OnClickListener() {
                             @Override
@@ -309,14 +309,5 @@ public class GoogleSignInActivity extends BaseActivity implements
         updateUI(user);
 
 
-    }
-
-    //       Called when the user taps the view button
-    public void viewDiary(View view) {
-            Intent intent = new Intent(this, DisplayDiaryActivity.class);
-            TextView diaryView = (TextView) findViewById(R.id.diary_title);
-            String message = diaryView.getText().toString();
-            intent.putExtra(EXTRA_MESSAGE, message);
-            startActivity(intent);
     }
 }

@@ -4,7 +4,8 @@
     <item
         android:id="@+id/diary_add"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="Add Diary"
+        android:title="Add Entry"
+        app:showAsAction="always"
         />
 
 </menu>
