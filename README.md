@@ -5,7 +5,7 @@ The Journal App is an work-in progress application built in android where users 
 It contains the following features, users can:
 1. Register and Login using google authentication.
 2. View all entries to their diary.
-3. Add an entry.
+3. Add and delete an entry.
 
 ## Getting Started
 
